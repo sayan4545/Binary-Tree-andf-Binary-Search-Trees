@@ -22,7 +22,6 @@ public class InOrderSuccesor {
     }
     public static Node inOrderSucc(Node root){
         return findMin(root.right);
-
     }
     public static Node inOrderPred(Node root){
         return findMax(root.left);

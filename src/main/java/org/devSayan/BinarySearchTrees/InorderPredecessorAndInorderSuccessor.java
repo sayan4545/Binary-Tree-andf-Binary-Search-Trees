@@ -1,9 +1,6 @@
 package org.devSayan.BinarySearchTrees;
 
 import java.util.ArrayList;
-
-
-
 public class InorderPredecessorAndInorderSuccessor {
     public static Node findMax(Node root){
         Node temp = root;
